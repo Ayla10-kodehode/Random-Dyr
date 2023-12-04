@@ -2,17 +2,21 @@ body{
     margin:auto;
     display: flex;
     justify-content: center;
-
+    background-color: #E39695;
 }
 
 div{
     margin: 50px;
+    background-color: #E4B1AB;
+    border-radius: 40px;
 }
 
 .image {
-    margin:20px;
-    max-width: 200px;
-    height: 200px;
+    max-width: 300px;
+    max-height: 300px;
+    border:6px solid #3C1518;
+    border-radius: 40px;
+
     
 }
 
@@ -20,13 +24,23 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:120px;
-    height:60px;
     padding:20px;
+}
+
+button{
+    border-radius: 40px;
+    padding:20px 60px 20px 60px;
+    background-color: #dc8886;
+    box-shadow: 2px 2px 2px  #3C1518;
+    border:#3C1518;
+    
 }
 
 .text{
     font-size: 30px;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-style: bold;
 }
